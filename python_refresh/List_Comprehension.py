@@ -21,3 +21,9 @@ print(result)
 
 result = [[i+j for i in a1]for j in a2]
 print(result)  # 괄호 뒤가 먼저 고정
+
+for i in range(1,6):
+    print(' '*(6-i)+'*'*(2*i-1))
+
+for i in range(1,6):
+    print(' '*(6-i)+"*"*(2*i-1))
