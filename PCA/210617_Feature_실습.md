@@ -111,17 +111,18 @@ df1.drop(['sex','smoker','size'], axis=1)
 
 ``` python
 from sklearn.decomposition import PCA
-# define the transform
+# pca변형을 정의
 trans = PCA(n_components=7)
 
-# 데이터를 transform 하기
+# 데이터변환
 X_dim = trans.fit_transform(data_trans)
 
+# 설명력이 높은 순의 데이터 출력
+trans.explained_variance_ratio_.
 # 다시 데이터프레임으로 보기
-df2 = pd.DataFrame(pd.DataFrame(X_dim, columns=['total_bill','sex','smoker','day','time','size','tip_rate']))
-df2.corr()
+data_pca = pd.DataFrame(X_dim)
+data_pca.describe().round(2)
 
-#결과 확인 후 rfe도 4개만 출력했으니 4개의 컬럼을 제외한 것은 숙청
 
 
 ```
