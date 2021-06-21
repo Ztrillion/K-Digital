@@ -1,0 +1,35 @@
+<html>
+    <head>
+       <style>
+           h1 {color : red; text-align: center}
+           h2 {color : gray; text-align: center}
+           p {color : blue; text-align: center}
+        </style>
+    </head>
+<body>    
+    <h1>My <b>First</b> Heading</h1>
+    <h2>그런데 말입니다</h2>
+    <p>My first paragraph.</p>
+   
+    <p id='demo'></p>
+    
+    <script>
+        var x,y,z;
+        x = 5; 
+        y = 6;
+        z= x+y;
+        
+        document.getElementById("demo").innerHTML=
+            "The value of z is"+z+'.';
+    </script>
+    
+    <p>버튼도 한번 딸각거려 볼까여?</p>
+    <button onclick="document.getElementById('myimg').src='on.jpg'">
+        Turn on the light</button>
+    <img id = "myimg" src="off.jpg" style = "width=120px" >
+    <button onclick="document.getElementById('myimg').src='off.jpg'">
+        Turn off the light</button>
+</body>
+</html>
+</body>
+</html>
