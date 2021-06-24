@@ -16,6 +16,7 @@ print(result)
 a1 = ["A","B","C"]
 a2 = ["D","E","F"]
 result = [i+j for i in a1 for j in a2]
+print(result)
 result = [i+j for i in a1 for j in a2 if not (i==j)]
 print(result)
 
