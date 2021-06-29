@@ -1,0 +1,17 @@
+,0,1,2,3
+0,"Expressway
+condition",Drive distance 200 km,,
+1,"City real road
+condition",Average speed,,
+2,,City 1,City 2,City 3
+3,,12 km/h,21 km/h,29 km/h
+4,"Internal 
+combustion 
+vehicle",2053 L,1709 L,1532 L
+5,,"₩2,796,364","₩2,328,166","₩2,087,129"
+6,"Parallel 
+hybrid vehicle",1403 L (32 %),1236 L (28 %),1150 L (25 %)
+7,,"₩1,911,141","₩1,683,813","₩1,566,637"
+8,"Powersplit
+hybrid vehicle",1347 L (34 %),1192 L (30 %),1119 L (27 %)
+9,,"₩1,834,358","₩1,622,890","₩1,524,061"
