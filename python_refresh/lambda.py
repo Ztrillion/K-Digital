@@ -18,4 +18,3 @@ print(f(3,1))
 
 print((lambda x: x*3)(3))
 
-print("*", lambda )
