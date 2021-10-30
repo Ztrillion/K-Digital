@@ -1,24 +1,37 @@
-# 2021_K-Digital 데이터 사이언스
-
----
+#Anaconda install
 
 
 
-## 개요
+conda update conda (or conda update --all)
 
-- 데이터 사이언스 과정을 통해 파이썬을 '잘' 다루는 방법을 학습하고, 파이썬을 통해 데이터 분석 및 예측을 학습한다
+conda create -n {name} python=3.x
 
+conda activate {name}
 
-
-## 학습목표
-
-- 파이썬을 '잘' 다루기
-
-- 트레이딩팀 확장(데이터기반)
-
-- 좋은 동료를 만나기
-
-  (기술적분석은 몰라도 되지만 업계에 대한 이해도 필요)
+conda install -c conda-forge 
 
 
+
+```python
+1	conda deactivate multi
+2	conda create --name multi python=3.7.6
+3	conda activate multi 
+4	pip install ipykernel
+5	python -m ipykernel install --user --name multi --display-name "Python Multi"
+6	conda install -c conda-forge jupyterlab
+7 #conda env create -n multi -f env_project1.yaml
+  
+#
+# To activate this environment, u
+#
+#     $ conda activate project1
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+8   conda remove --name project1 --all
+
+# pip install -r requirements.txt
+```
 
